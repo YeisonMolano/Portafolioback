@@ -1,0 +1,19 @@
+amazon:
+  access-key: Acá va el acces key que genero en ses
+  secret-key: Acá va la clave secreta que se crea al mismo tiempo
+  ses:
+    region: Acá va la región segun donde viva cada quien
+
+spring:
+  mail:
+    host: email-smtp.su region.amazonaws.com
+    port: 587
+    username: Acá va el correo de acceso a aws
+    password: contraseña
+    protocol: smtp
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
